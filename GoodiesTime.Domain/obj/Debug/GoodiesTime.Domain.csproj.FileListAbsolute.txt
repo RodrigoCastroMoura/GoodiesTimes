@@ -1,0 +1,40 @@
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\bin\Debug\GoodiesTime.Domain.dll.config
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\bin\Debug\GoodiesTime.Domain.dll
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\bin\Debug\GoodiesTime.Domain.pdb
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\bin\Debug\EntityFramework.dll
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\bin\Debug\EntityFramework.xml
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\obj\Debug\GoodiesTime.Domain.csprojResolveAssemblyReference.cache
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\obj\Debug\GoodiesTime.Domain.dll
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\obj\Debug\GoodiesTime.Domain.pdb
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\bin\Debug\GoodiesTime.Library.dll
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Domain\bin\Debug\GoodiesTime.Library.pdb
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\GoodiesTime.Domain.dll.config
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\GoodiesTime.Domain.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\GoodiesTime.Domain.pdb
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\EntityFramework.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\GoodiesTime.Library.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\GoodiesTime.Library.pdb
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\EntityFramework.xml
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\GoodiesTime\GoodiesTime.Domain\obj\Debug\GoodiesTime.Domain.csprojResolveAssemblyReference.cache
+E:\GoodiesTime\GoodiesTime.Domain\obj\Debug\GoodiesTime.Domain.dll
+E:\GoodiesTime\GoodiesTime.Domain\obj\Debug\GoodiesTime.Domain.pdb
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\FluentValidation.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\FluentValidation.xml
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Practices.Unity.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Owin.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Owin.Security.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Owin.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Newtonsoft.Json.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Practices.Unity.xml
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Owin.xml
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Owin.Security.xml
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Newtonsoft.Json.xml
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\GoodiesTime\GoodiesTime.Domain\bin\Debug\Microsoft.Practices.ServiceLocation.xml

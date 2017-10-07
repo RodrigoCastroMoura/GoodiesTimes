@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{2959DDDB-5900-4641-8944-5736D2EA5FB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infrastructure", "2 - Infrastructure", "{FF6CEC95-7B87-4B78-990C-36A66A547907}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{DA54CD6B-1772-4E82-8EEC-44A09CD0C327}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - IOC", "4 - IOC", "{E1D9F530-6BE2-4317-B30E-DB84FEE6B29F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Presentation", "5 - Presentation", "{F985C79F-EA1B-4C1B-8AF1-FDAC62DA1AE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Library", "0 - Library", "{8D5CE6AC-4318-4B12-8B48-EFBEC96B988C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.Domain", "GoodiesTime.Domain\GoodiesTime.Domain.csproj", "{65A0B73E-9CA0-4D2B-9D6C-04863E3224FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.Library", "GoodiesTime.Library\GoodiesTime.Library.csproj", "{0420871B-C797-475F-846D-17ABC3583974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.Infrastructure", "GoodiesTime.Infrastructure\GoodiesTime.Infrastructure.csproj", "{8A4C815E-60E2-4B9F-8BE7-5A7ADF02322C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.Service", "GoodiesTime.Service\GoodiesTime.Service.csproj", "{77AC359E-CD74-4410-948D-905AD0FBCC54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.IOC", "GoodiesTime.IOC\GoodiesTime.IOC.csproj", "{8AA93911-1585-4CFA-8654-ABEDD2276FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.Web.Api", "GoodiesTime.Web.Api\GoodiesTime.Web.Api.csproj", "{02809338-B771-4A1E-B5F1-DBD64201092B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.Web", "GoodiesTime.Web\GoodiesTime.Web.csproj", "{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A0B73E-9CA0-4D2B-9D6C-04863E3224FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A0B73E-9CA0-4D2B-9D6C-04863E3224FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A0B73E-9CA0-4D2B-9D6C-04863E3224FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A0B73E-9CA0-4D2B-9D6C-04863E3224FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0420871B-C797-475F-846D-17ABC3583974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0420871B-C797-475F-846D-17ABC3583974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0420871B-C797-475F-846D-17ABC3583974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0420871B-C797-475F-846D-17ABC3583974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4C815E-60E2-4B9F-8BE7-5A7ADF02322C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4C815E-60E2-4B9F-8BE7-5A7ADF02322C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4C815E-60E2-4B9F-8BE7-5A7ADF02322C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4C815E-60E2-4B9F-8BE7-5A7ADF02322C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AC359E-CD74-4410-948D-905AD0FBCC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AC359E-CD74-4410-948D-905AD0FBCC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AC359E-CD74-4410-948D-905AD0FBCC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AC359E-CD74-4410-948D-905AD0FBCC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA93911-1585-4CFA-8654-ABEDD2276FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA93911-1585-4CFA-8654-ABEDD2276FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA93911-1585-4CFA-8654-ABEDD2276FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA93911-1585-4CFA-8654-ABEDD2276FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02809338-B771-4A1E-B5F1-DBD64201092B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02809338-B771-4A1E-B5F1-DBD64201092B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02809338-B771-4A1E-B5F1-DBD64201092B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02809338-B771-4A1E-B5F1-DBD64201092B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65A0B73E-9CA0-4D2B-9D6C-04863E3224FE} = {2959DDDB-5900-4641-8944-5736D2EA5FB4}
+		{0420871B-C797-475F-846D-17ABC3583974} = {8D5CE6AC-4318-4B12-8B48-EFBEC96B988C}
+		{8A4C815E-60E2-4B9F-8BE7-5A7ADF02322C} = {FF6CEC95-7B87-4B78-990C-36A66A547907}
+		{77AC359E-CD74-4410-948D-905AD0FBCC54} = {DA54CD6B-1772-4E82-8EEC-44A09CD0C327}
+		{8AA93911-1585-4CFA-8654-ABEDD2276FB1} = {E1D9F530-6BE2-4317-B30E-DB84FEE6B29F}
+		{02809338-B771-4A1E-B5F1-DBD64201092B} = {F985C79F-EA1B-4C1B-8AF1-FDAC62DA1AE8}
+		{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2} = {F985C79F-EA1B-4C1B-8AF1-FDAC62DA1AE8}
+	EndGlobalSection
+EndGlobal

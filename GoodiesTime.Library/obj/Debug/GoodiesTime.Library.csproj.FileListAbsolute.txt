@@ -1,0 +1,29 @@
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Library\bin\Debug\GoodiesTime.Library.dll
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Library\bin\Debug\GoodiesTime.Library.pdb
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Library\obj\Debug\GoodiesTime.Library.csprojResolveAssemblyReference.cache
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Library\obj\Debug\GoodiesTime.Library.dll
+C:\Users\RodrigoMoura\Documents\Visual Studio 2015\Projects\GoodiesTime\GoodiesTime.Library\obj\Debug\GoodiesTime.Library.pdb
+E:\GoodiesTime\GoodiesTime.Library\obj\Debug\GoodiesTime.Library.csprojResolveAssemblyReference.cache
+E:\GoodiesTime\GoodiesTime.Library\obj\Debug\GoodiesTime.Library.dll
+E:\GoodiesTime\GoodiesTime.Library\obj\Debug\GoodiesTime.Library.pdb
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\GoodiesTime.Library.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\GoodiesTime.Library.pdb
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Owin.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Owin.Security.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Practices.Unity.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Newtonsoft.Json.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Owin.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Unity.Ioc.Framework.dll
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Owin.xml
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Owin.Security.xml
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Practices.Unity.xml
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+E:\GoodiesTime\GoodiesTime.Library\bin\Debug\Newtonsoft.Json.xml

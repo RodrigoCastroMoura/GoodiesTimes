@@ -26,8 +26,14 @@ namespace GoodiesTime.Service.Service
         public tb_partners Cadastrar(tb_partnersDto dto)
         {
             dto.ValidaCadastro(itb_partnersRepository);
- 
-            return itb_partnersRepository.Cadastrar(dto);
+
+            var value = itb_partnersRepository.Cadastrar(dto);
+
+            SaveChanges();
+
+            Dispose();
+
+            return value;
         }
 
 
@@ -35,7 +41,13 @@ namespace GoodiesTime.Service.Service
         {
             dto.ValidaAlterar(itb_partnersRepository);
 
-            return itb_partnersRepository.Alterar(dto);
+            var value = itb_partnersRepository.Alterar(dto);
+
+            SaveChanges();
+
+            Dispose();
+
+            return value;
         }
 
 
@@ -50,10 +62,14 @@ namespace GoodiesTime.Service.Service
             return itb_partnersRepository.Autenticaçao(dto);
         }
 
-
         public tb_partners GetPartners(tb_partnersDto dto)
         {
             return itb_partnersRepository.GetPartners(dto);
+        }
+
+        public tb_partners GetPartnersId(int id_partners)
+        {
+            return itb_partnersRepository.GetPartnersId(id_partners);
         }
 
     }

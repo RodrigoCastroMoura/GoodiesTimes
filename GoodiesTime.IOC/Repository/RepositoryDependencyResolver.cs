@@ -9,6 +9,7 @@ namespace GoodiesTime.IOC.Repository
         public static void RegisterDependencies(UnityContainer container)
         {
             container.RegisterType<Itb_partnersRepository, tb_partnersRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<Itb_addressRepository, tb_addressRepository>(new HierarchicalLifetimeManager());
         }
     }
 }

@@ -8,7 +8,10 @@ namespace GoodiesTime.Infrastructure.Mappings
         public tb_partnersMap()
         {
             ToTable("tb_partners");
+
             HasKey(x => x.id_partners);
+
+            
         }
     }
 }

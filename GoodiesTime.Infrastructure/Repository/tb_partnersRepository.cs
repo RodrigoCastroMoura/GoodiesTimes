@@ -46,5 +46,17 @@ namespace GoodiesTime.Infrastructure.Repository
             return First(criterio);
         }
 
+        public tb_partners GetPartnersId(int id_partners)
+        {
+            var dto = new tb_partnersDto
+            {
+                id_partners = id_partners
+            };
+
+            var criterio = dto.CriarSpecification();
+
+            return First(criterio);
+        }
+
     }
 }

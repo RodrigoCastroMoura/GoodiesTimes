@@ -12,5 +12,7 @@ namespace GoodiesTime.Domain.Interfaces.Repository
         tb_partners Alterar(tb_partnersDto dto);
 
         tb_partners GetPartners(tb_partnersDto dto);
+
+        tb_partners GetPartnersId(int id_partners);
     }
 }

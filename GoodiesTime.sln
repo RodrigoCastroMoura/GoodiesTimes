@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{2959DDDB-5900-4641-8944-5736D2EA5FB4}"
 EndProject
@@ -25,9 +25,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.Service", "Good
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.IOC", "GoodiesTime.IOC\GoodiesTime.IOC.csproj", "{8AA93911-1585-4CFA-8654-ABEDD2276FB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.Web.Api", "GoodiesTime.Web.Api\GoodiesTime.Web.Api.csproj", "{02809338-B771-4A1E-B5F1-DBD64201092B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTime.Web", "GoodiesTime.Web\GoodiesTime.Web.csproj", "{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D70ED877-465F-4E2B-9FF0-7BE31F9C5E4A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTimes.Api", "GoodiesTimes.Api\GoodiesTimes.Api.csproj", "{64CA6EA6-A2D9-4B7F-9361-70E756E8BE44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,14 +62,14 @@ Global
 		{8AA93911-1585-4CFA-8654-ABEDD2276FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AA93911-1585-4CFA-8654-ABEDD2276FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AA93911-1585-4CFA-8654-ABEDD2276FB1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02809338-B771-4A1E-B5F1-DBD64201092B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02809338-B771-4A1E-B5F1-DBD64201092B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02809338-B771-4A1E-B5F1-DBD64201092B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02809338-B771-4A1E-B5F1-DBD64201092B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CA6EA6-A2D9-4B7F-9361-70E756E8BE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CA6EA6-A2D9-4B7F-9361-70E756E8BE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CA6EA6-A2D9-4B7F-9361-70E756E8BE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CA6EA6-A2D9-4B7F-9361-70E756E8BE44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,7 +80,7 @@ Global
 		{8A4C815E-60E2-4B9F-8BE7-5A7ADF02322C} = {FF6CEC95-7B87-4B78-990C-36A66A547907}
 		{77AC359E-CD74-4410-948D-905AD0FBCC54} = {DA54CD6B-1772-4E82-8EEC-44A09CD0C327}
 		{8AA93911-1585-4CFA-8654-ABEDD2276FB1} = {E1D9F530-6BE2-4317-B30E-DB84FEE6B29F}
-		{02809338-B771-4A1E-B5F1-DBD64201092B} = {F985C79F-EA1B-4C1B-8AF1-FDAC62DA1AE8}
 		{73C8DDD4-33A3-42A6-B3FA-A64D792E32E2} = {F985C79F-EA1B-4C1B-8AF1-FDAC62DA1AE8}
+		{64CA6EA6-A2D9-4B7F-9361-70E756E8BE44} = {F985C79F-EA1B-4C1B-8AF1-FDAC62DA1AE8}
 	EndGlobalSection
 EndGlobal

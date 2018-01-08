@@ -9,6 +9,7 @@ namespace GoodiesTime.IOC.Services
         public static void RegisterDependencies(UnityContainer container)
         {
             container.RegisterType<Itb_partnersServices, PartnersAppService>(new HierarchicalLifetimeManager());
+            container.RegisterType<Itb_addressServices, AddressAppService>(new HierarchicalLifetimeManager());
         }
     }
 }

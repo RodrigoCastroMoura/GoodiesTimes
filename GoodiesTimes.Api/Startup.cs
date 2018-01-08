@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Web.Http;
 using System.Web.Http.Dependencies;
 using GoodiesTime.IOC;
-using GoodiesTime.Library;
 using Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Cors;
 using Microsoft.Owin.Security.OAuth;
 using Microsoft.Practices.Unity;
+using GoodiesTimes.Library.web;
 
 [assembly: OwinStartup(typeof(GoodiesTimes.Api.Startup))]
 

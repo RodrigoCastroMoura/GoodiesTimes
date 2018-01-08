@@ -10,7 +10,7 @@ namespace GoodiesTime.Domain.Interfaces.Services
 
         tb_address Alterar(tb_addressDto dto);
 
-        IEnumerable<tb_address> GetAddress(tb_addressDto dto);
+        List<tb_address> GetAddress(tb_addressDto dto);
 
         void Apagar(int id_address);
     }

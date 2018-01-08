@@ -8,6 +8,13 @@ namespace GoodiesTime.Domain.Validators.Address
     {
         public AddressAlterarValidators()
         {
+            RuleFor(address => address.id_address)
+             .NotNull()
+             .NotEmpty()
+             .WithMessage("id_address Field Required")
+             .Must(VerificaMenorQueZero)
+             .WithMessage("id_address Field Required");
+
             RuleFor(address => address.ds_address)
               .NotNull()
               .NotEmpty()
@@ -32,11 +39,26 @@ namespace GoodiesTime.Domain.Validators.Address
                .NotNull()
                .NotEmpty()
                .WithMessage("id_state Field Required");
+        }
 
-            RuleFor(address => address.main)
-               .NotNull()
-               .NotEmpty()
-               .WithMessage("main Field Required");
+        public bool VerificaMenorQueZero(int id)
+        {
+            if (id == null)
+            {
+                return false;
+            }
+            else
+            {
+                if (id <= 0)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+
         }
     }
 }

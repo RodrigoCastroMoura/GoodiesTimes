@@ -33,10 +33,6 @@ namespace GoodiesTime.Domain.Validators.Address
                .NotEmpty()
                .WithMessage("id_state Field Required");
 
-            RuleFor(address => address.main)
-               .NotNull()
-               .NotEmpty()
-               .WithMessage("main Field Required");
                
         }
     }

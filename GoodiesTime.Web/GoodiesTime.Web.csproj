@@ -149,6 +149,20 @@
     <Folder Include="Models\" />
     <Folder Include="scripts\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GoodiesTime.Domain\GoodiesTime.Domain.csproj">
+      <Project>{65a0b73e-9ca0-4d2b-9d6c-04863e3224fe}</Project>
+      <Name>GoodiesTime.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoodiesTime.IOC\GoodiesTime.IOC.csproj">
+      <Project>{8aa93911-1585-4cfa-8654-abedd2276fb1}</Project>
+      <Name>GoodiesTime.IOC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoodiesTime.Service\GoodiesTime.Service.csproj">
+      <Project>{77ac359e-cd74-4410-948d-905ad0fbcc54}</Project>
+      <Name>GoodiesTime.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

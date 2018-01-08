@@ -1,4 +1,5 @@
-﻿using GoodiesTime.Domain.Commands;
+﻿using System.Linq;
+using GoodiesTime.Domain.Commands;
 using GoodiesTime.Domain.DTO;
 using GoodiesTime.Domain.Entities;
 using GoodiesTime.Domain.Interfaces.Repository;
@@ -36,6 +37,8 @@ namespace GoodiesTime.Service.Service
 
         public tb_address Alterar(tb_addressDto dto)
         {
+            dto.ValidaAlterar();
+
             var value = itb_addressRepository.Alterar(dto);
 
             SaveChanges();
@@ -45,9 +48,9 @@ namespace GoodiesTime.Service.Service
             return value;
         }
 
-        public IEnumerable<tb_address> GetAddress(tb_addressDto dto)
+        public List<tb_address> GetAddress(tb_addressDto dto)
         {
-            return itb_addressRepository.GetAddress(dto);
+            return itb_addressRepository.GetAddress(dto).ToList();
         }
 
         public void Apagar(int id_address)

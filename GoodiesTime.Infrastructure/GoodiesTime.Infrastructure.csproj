@@ -54,11 +54,15 @@
   <ItemGroup>
     <Compile Include="Context\DataContext.cs" />
     <Compile Include="Mappings\tb_addressMap.cs" />
+    <Compile Include="Mappings\tb_businessMap.cs" />
     <Compile Include="Mappings\tb_partnersMap.cs" />
+    <Compile Include="Mappings\tb_statesMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\RepositoryBase.cs" />
     <Compile Include="Repository\tb_addressRepository.cs" />
+    <Compile Include="Repository\tb_businessRepository.cs" />
     <Compile Include="Repository\tb_partnersRepository.cs" />
+    <Compile Include="Repository\tb_statesRepository.cs" />
     <Compile Include="UnityOfWork\UnitiOfWork.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -43,7 +43,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\AddressAppService.cs" />
+    <Compile Include="Service\BusinessAppService.cs" />
     <Compile Include="Service\PartnersAppService.cs" />
+    <Compile Include="Service\StateAppService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GoodiesTime.Domain\GoodiesTime.Domain.csproj">

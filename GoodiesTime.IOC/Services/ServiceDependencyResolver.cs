@@ -10,6 +10,8 @@ namespace GoodiesTime.IOC.Services
         {
             container.RegisterType<Itb_partnersServices, PartnersAppService>(new HierarchicalLifetimeManager());
             container.RegisterType<Itb_addressServices, AddressAppService>(new HierarchicalLifetimeManager());
+            container.RegisterType<Itb_businessServices, BusinessAppService>(new HierarchicalLifetimeManager());
+            container.RegisterType<Itb_statesServices, StateAppService>(new HierarchicalLifetimeManager());
         }
     }
 }

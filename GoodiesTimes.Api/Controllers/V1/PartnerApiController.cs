@@ -50,6 +50,7 @@ namespace GoodiesTimes.Api.Controllers.V1
         [ResponseType(typeof(PartnerModels))]
         [HttpPut]
         [Route("UpdatePartner")]
+        //[Authorize]
         public async Task<HttpResponseMessage> UpdatePartner(PartnerModels value)
         {
             try
@@ -82,6 +83,7 @@ namespace GoodiesTimes.Api.Controllers.V1
 
         [HttpGet]
         [Route("GetPartner")]
+        //[Authorize]
         public async Task<HttpResponseMessage> GetPartner(int id_partners)
         {
             try

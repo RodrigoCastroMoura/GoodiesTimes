@@ -74,3 +74,4 @@ C:\Users\Administrador\Source\Repos\GoodiesTimes\GoodiesTime.Library\bin\Debug\M
 C:\Users\Administrador\Source\Repos\GoodiesTimes\GoodiesTime.Library\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Administrador\Source\Repos\GoodiesTimes\GoodiesTime.Library\obj\Debug\GoodiesTime.Library.dll
 C:\Users\Administrador\Source\Repos\GoodiesTimes\GoodiesTime.Library\obj\Debug\GoodiesTime.Library.pdb
+C:\Users\Administrador\Source\Repos\GoodiesTimes\GoodiesTime.Library\obj\Debug\GoodiesTime.Library.csprojResolveAssemblyReference.cache

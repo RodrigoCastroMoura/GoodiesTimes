@@ -157,13 +157,17 @@
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\V1\AddressApiController.cs" />
+    <Compile Include="Controllers\V1\BusinessApiController.cs" />
     <Compile Include="Controllers\V1\PartnerApiController.cs" />
+    <Compile Include="Controllers\V1\StatesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Mappers\AutoMapperConfig.cs" />
     <Compile Include="Models\AddressModels.cs" />
+    <Compile Include="Models\BusinessModels.cs" />
     <Compile Include="Models\PartnerModels.cs" />
+    <Compile Include="Models\StateModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>

@@ -44,7 +44,7 @@ namespace GoodiesTimes.Library.web
 
             var props = new AuthenticationProperties(new Dictionary<string, string>
             {
-              
+              { "id", user.id_partners.ToString()},
 
             });
 

@@ -10,6 +10,8 @@ namespace GoodiesTime.IOC.Repository
         {
             container.RegisterType<Itb_partnersRepository, tb_partnersRepository>(new HierarchicalLifetimeManager());
             container.RegisterType<Itb_addressRepository, tb_addressRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<Itb_businessRepository, tb_businessRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<Itb_statesRepository, tb_statesRepository>(new HierarchicalLifetimeManager());
         }
     }
 }

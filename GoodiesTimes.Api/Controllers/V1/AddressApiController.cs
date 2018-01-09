@@ -113,49 +113,6 @@ namespace GoodiesTimes.Api.Controllers.V1
             }
         }
 
-        //[HttpPost]
-        //[Route("EnviarSenha/{cpf}")]
-        //[AllowAnonymous]
-        //public async Task<HttpResponseMessage> EnviarSenha(string cpf)
-        //{
-        //    try
-        //    {
-
-        //        string SenhaCaracteresValidos = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@#&!?";
-        //        int valormaximo = SenhaCaracteresValidos.Length;
-        //        Random random = new Random(DateTime.Now.Millisecond);
-        //        StringBuilder senha = new StringBuilder(6);
-        //        for (int indice = 0; indice < 6; indice++)
-        //        {
-        //            senha.Append(SenhaCaracteresValidos[random.Next(0, valormaximo)]);
-        //        }
-
-        //        var dto = Mapper.Map<Cliente, ClienteDto>(service.GetCliente(cpf));
-
-        //        if (dto == null)
-        //        {
-        //            return Request.CreateResponse(HttpStatusCode.BadRequest, "Usuário não encontrado!");
-        //        }
-
-        //        dto.ds_senha = SecurityDb.Encrypt(senha.ToString());
-        //        dto.fl_trocar_senha = true; ;
-
-        //        service.Alterar(dto);
-
-        //        var resoposta = Email.Send(dto.ds_nome, dto.ds_email, "Rastreio Fácil - Reenvio Senha ", "<p style='font-family: Arial, Helvetica; color: #000; font-size: 14px'>Olá <strong>" + dto.ds_nome + ",</strong><br /><br />Sua solicitação de reenvio de senha temporária foi feita com sucesso!<p style='font-family: Arial, Helvetica; color: #000; font-size: 13px;'>Favor acessar o sitema, digite o seu CPF e a nova senha,  que é: <strong>" + senha.ToString() + "<strong> </p><p style='font-family: Arial, Helvetica; color: black; font-size: 13px;'><strong>Favor não responder este e-mail!</strong></p>");
-
-        //        if (resoposta != "Y")
-        //        {
-        //            return Request.CreateResponse(HttpStatusCode.BadRequest, "Estamos com  problema, tente mais tarde!");
-        //        }
-
-        //        return Request.CreateResponse(HttpStatusCode.OK, "Sua senha foi enviada para seu e-mail com sucesso!");
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return Request.CreateResponse(HttpStatusCode.BadRequest, ex);
-        //    }
-        //}
+        
     }
 }

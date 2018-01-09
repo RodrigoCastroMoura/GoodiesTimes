@@ -19,10 +19,10 @@ namespace GoodiesTimes.Api.Mappers
                 x.CreateMap<PartnerModels, tb_partnersDto>()
                     .ForMember(opt => opt.ts_user_cadm, opt => opt.Ignore())
                     .ForMember(opt => opt.changePassWord, opt => opt.Ignore())
+                    .ForMember(opt => opt.hash, opt => opt.Ignore())
                     .ForMember(opt => opt.active, opt => opt.Ignore());
-
-
-                x.CreateMap<tb_partnersDto, tb_partnersDto>();
+                    
+                x.CreateMap<tb_partners, tb_partnersDto>();
 
                 x.CreateMap<AddressModels, tb_addressDto>();
 

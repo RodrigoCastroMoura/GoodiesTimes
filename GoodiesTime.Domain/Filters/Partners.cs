@@ -32,6 +32,11 @@ namespace GoodiesTime.Domain.Filters
                 criterio = criterio.And(new PartnersPasswoerdSpecificacao(filtro.password));
             }
 
+            if (!string.IsNullOrEmpty(filtro.hash))
+            {
+
+                criterio = criterio.And(new PartnersHashSpecificacao(filtro.hash));
+            }
 
 
             if (filtro.id_partners != null)

@@ -6,6 +6,8 @@ namespace GoodiesTime.Domain.DTO
     {
         public int id_partners { get;  set; }
 
+        public string hash { get;  set; }
+
         public string name { get;  set; }
 
         public string lastname { get;  set; }

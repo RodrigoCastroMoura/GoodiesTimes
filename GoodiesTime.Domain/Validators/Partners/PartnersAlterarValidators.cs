@@ -31,7 +31,7 @@ namespace GoodiesTime.Domain.Validators.Partners
               .NotEmpty()
               .WithMessage("E-mail Field Required")
               .EmailAddress().WithMessage("invalid Email")
-              .Must(VerificaEmailJaCadastrado).WithMessage("E-mail already registered.")
+              //.Must(VerificaEmailJaCadastrado).WithMessage("E-mail already registered.")
               .Length(3, 50).WithMessage("Email must be between 3 and 50 characters.");
 
 

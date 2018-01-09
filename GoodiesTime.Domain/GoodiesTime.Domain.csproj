@@ -132,6 +132,7 @@
     <Compile Include="Service\AppService.cs" />
     <Compile Include="Specifications\Address\AddressIdPartnersSpecificacao.cs" />
     <Compile Include="Specifications\Address\AddressIdSpecificacao.cs" />
+    <Compile Include="Specifications\Partners\PartnersHashSpecificacao.cs" />
     <Compile Include="Specifications\Partners\PartnersIdSpecificacao.cs" />
     <Compile Include="Specifications\Partners\PartnersPasswoerdSpecificacao.cs" />
     <Compile Include="Specifications\Partners\PartnersEmailSpecificacao.cs" />

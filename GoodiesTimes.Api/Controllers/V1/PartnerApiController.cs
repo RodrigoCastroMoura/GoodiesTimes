@@ -9,6 +9,7 @@ using GoodiesTime.Library;
 using GoodiesTime.Domain.Interfaces.Services;
 using GoodiesTimes.Api.Models;
 using System.Web.Http.Description;
+using GoodiesTime.Domain.Entities;
 
 namespace GoodiesTimes.Api.Controllers.V1
 {
@@ -21,7 +22,6 @@ namespace GoodiesTimes.Api.Controllers.V1
         {
             this.service = service;
         }
-
 
         [ResponseType(typeof(PartnerModels))]
         [HttpPost]
@@ -80,9 +80,8 @@ namespace GoodiesTimes.Api.Controllers.V1
             }
         }
 
-
         [HttpGet]
-        [Route("GetPartner")]
+        [Route("GetPartner/{id_partners}")]
         //[Authorize]
         public async Task<HttpResponseMessage> GetPartner(int id_partners)
         {
@@ -97,6 +96,80 @@ namespace GoodiesTimes.Api.Controllers.V1
 
                 return Request.CreateResponse(HttpStatusCode.OK, model);
                     
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex);
+            }
+        }
+
+        [HttpPost]
+        [Route("RequestPassword")]
+        [AllowAnonymous]
+        public async Task<HttpResponseMessage> RequestPassword(string email)
+        {
+            try
+            {
+
+                var dto = new tb_partnersDto()
+                {
+                    email = email
+                };
+
+                var result = Mapper.Map<tb_partners, tb_partnersDto>(service.GetPartners(dto));
+
+                if (result == null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "Not Found");
+                }
+
+                result.hash = Email.MD5Hash(DateTime.Now.ToString());
+
+                service.Alterar(result);
+
+                var resoposta = Email.Send(result.name, result.email, "Teste  - Reenvio Senha ", "<p style='font-family: Arial, Helvetica; color: #000; font-size: 14px'>Olá <strong>" + result.name + ",</strong><br /><br />Sua solicitação foi feita com sucesso!<p style='font-family: Arial, Helvetica; color: #000; font-size: 13px;'>Favor acessar o Link,  que é: <strong>" + result.hash + "<strong> </p><p style='font-family: Arial, Helvetica; color: black; font-size: 13px;'><strong>Favor não responder este e-mail!</strong></p>");
+
+                if (resoposta != "Y")
+                {
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "We're in trouble, try again later!");
+                }
+
+                return Request.CreateResponse(HttpStatusCode.OK, true);
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex);
+            }
+        }
+
+        [HttpPut]
+        [Route("ChangePassword")]
+        [AllowAnonymous]
+        public async Task<HttpResponseMessage> ChangePassword(string password,string hash)
+        {
+            try
+            {
+
+                var dto = new tb_partnersDto()
+                {
+                    hash = hash
+                };
+
+                var result = Mapper.Map<tb_partners, tb_partnersDto>(service.GetPartners(dto));
+
+                if (result == null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "Not Found");
+                }
+
+                result.hash = Email.MD5Hash(DateTime.Now.ToString());
+                result.password = SecurityDb.Encrypt(password);
+
+                service.Alterar(result);
+
+                return Request.CreateResponse(HttpStatusCode.OK, true);
+
             }
             catch (Exception ex)
             {

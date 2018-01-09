@@ -8,6 +8,8 @@ namespace GoodiesTime.Domain.Entities
     {
         public int id_partners { get; private set; }
 
+        public string hash { get; private set; }
+
         public string name { get; private set; }
 
         public string lastname { get; private set; }
@@ -37,6 +39,8 @@ namespace GoodiesTime.Domain.Entities
         private tb_partners(tb_partnersDto dto)
         {
             id_partners = dto.id_partners;
+
+            hash = dto.hash;
 
             name = dto.name;
 

@@ -196,6 +196,10 @@
       <Project>{0420871b-c797-475f-846d-17abc3583974}</Project>
       <Name>GoodiesTime.Library</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GoodiesTimes.Library.web\GoodiesTimes.Library.web.csproj">
+      <Project>{4ec1f993-d44e-4d13-abeb-4ec88a2a3c94}</Project>
+      <Name>GoodiesTimes.Library.web</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

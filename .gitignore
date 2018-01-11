@@ -10,12 +10,21 @@
 
 # Build results
 
-[Dd]ebug/
-[Rr]elease/
-x64/
-build/
-[Bb]in/
-[Oo]bj/
+#[Dd]ebug/
+#[Rr]elease/
+#x64/
+#build/
+#[Bb]in/
+#[Oo]bj/
+
+
+**/[Dd]ebug/*
+**/[Rr]elease/*
+**/x64/*
+**/build/*
+**/[Bb]in/*
+**/[Oo]bj/*
+
 
 # NuGet Packages
 *.nupkg
@@ -207,3 +216,4 @@ $RECYCLE.BIN/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
+

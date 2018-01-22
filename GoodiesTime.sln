@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{2959DDDB-5900-4641-8944-5736D2EA5FB4}"
 EndProject
@@ -40,8 +40,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTimes.Api", "Goodies
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTimes.Library.web", "GoodiesTimes.Library.web\GoodiesTimes.Library.web.csproj", "{4EC1F993-D44E-4D13-ABEB-4EC88A2A3C94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodiesTimes.Web", "GoodiesTimes.Web\GoodiesTimes.Web.csproj", "{0725291C-B4A9-4309-8AC2-FA21D31BC2D2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,10 +68,6 @@ Global
 		{4EC1F993-D44E-4D13-ABEB-4EC88A2A3C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4EC1F993-D44E-4D13-ABEB-4EC88A2A3C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EC1F993-D44E-4D13-ABEB-4EC88A2A3C94}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0725291C-B4A9-4309-8AC2-FA21D31BC2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0725291C-B4A9-4309-8AC2-FA21D31BC2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0725291C-B4A9-4309-8AC2-FA21D31BC2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0725291C-B4A9-4309-8AC2-FA21D31BC2D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +80,5 @@ Global
 		{8AA93911-1585-4CFA-8654-ABEDD2276FB1} = {E1D9F530-6BE2-4317-B30E-DB84FEE6B29F}
 		{64CA6EA6-A2D9-4B7F-9361-70E756E8BE44} = {F985C79F-EA1B-4C1B-8AF1-FDAC62DA1AE8}
 		{4EC1F993-D44E-4D13-ABEB-4EC88A2A3C94} = {8D5CE6AC-4318-4B12-8B48-EFBEC96B988C}
-		{0725291C-B4A9-4309-8AC2-FA21D31BC2D2} = {F985C79F-EA1B-4C1B-8AF1-FDAC62DA1AE8}
 	EndGlobalSection
 EndGlobal
